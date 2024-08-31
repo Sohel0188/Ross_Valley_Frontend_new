@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
+    <title>Alazea - Gardening &amp; Landscaping HTML Template</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/core-img/favicon.ico">
+
+    <!-- Core Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body id="top">
+    <!-- Preloader -->
+    <!-- <div class="preloader d-flex align-items-center justify-content-center">
+        <div class="preloader-circle"></div>
+        <div class="preloader-img">
+            <img src="img/core-img/leaf.png" alt="">
+        </div>
+    </div> -->
+
+    <!-- ##### Header Area Start ##### -->
+    <div id="header-placeholder">
+        
+    </div>
+    <!-- ##### Header Area End ##### -->
+
+    <style>
+        .single-product-area .product-img .product-meta a {
+            font-size: 15px;
+            color: #ffffff;
+            font-weight: 600;
+            background-color: #303030;
+            max-width: 225px !important;
+            width: 225px !important;
+            height: 40px;
+            line-height: 40px;
+           
+        }
+
+    </style>
+    <!-- ##### Breadcrumb Area Start ##### -->
+    <div class="breadcrumb-area">
+        <!-- Top Breadcrumb Area -->
+        <div class="top-breadcrumb-area bg-img bg-overlay d-flex align-items-center justify-content-center" style="background-image: url(img/bg-img/24.jpg);">
+            <h2>SHOP DETAILS</h2>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="#"><i class="fa fa-home"></i> Home</a></li>
+                            <li class="breadcrumb-item"><a href="#">Shop</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Shop Details</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ##### Breadcrumb Area End ##### -->
+
+    <!-- ##### Single Product Details Area Start ##### -->
+    <section class="single_product_details_area mb-50" id="singleProduct">
+        <div class="produts-details--content mb-50">
+            <div class="container">
+                <div class="row justify-content-between">
+
+                    <div class="col-12 col-md-6 col-lg-5">
+                        <div class="single_product_thumb">
+                            <div id="product_details_slider" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <a class="product-img" id="product_image_link" href="" title="Product Image" target="_blank">
+                                        <img class="d-block w-100" id="product_image" src="" alt="1">
+                                    </a>
+                                    </div>
+                                    
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <div class="single_product_desc">
+                            <h4 class="title" id="product_name"></h4>
+                            <h4 class="price">Tk. <span id="product_price"></span> </h4>
+                            <div class="short_overview">
+                              <p id="product_short_dis"></p>
+                            </div>
+
+                            <div class="cart--area d-flex flex-wrap align-items-center" id="buy_now">
+                                <!-- Add to Cart Form -->         
+                                <!-- <a href="checkout.html?Id=${singleProduct.id}" class="btn alazea-btn ml-15" ">Buy Now</a> -->
+                               
+                            </div>
+
+                            <div class="products--meta">
+                                <p>
+                                    <span>Product Stock:</span>
+                                    <span id="stock"> </span> &nbsp;Item
+                                </p>
+                                
+                                <p>
+                                    <span>Share on:</span>
+                                    <span>
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a href="#"><i class="fa fa-pinterest"></i></a>
+                                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                                </span>
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="product_details_tab clearfix">
+                        <!-- Tabs -->
+                        <ul class="nav nav-tabs" role="tablist" id="product-details-tab">
+                            <li class="nav-item">
+                                <a href="#description" class="nav-link active" data-toggle="tab" role="tab">Description</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                                <a href="#reviews" class="nav-link" data-toggle="tab" role="tab">Reviews <span class="text-muted"></span></a>
+                            </li>
+                        </ul>
+                        <!-- Tab Content -->
+                        <div class="tab-content">
+                            <div role="tabpanel" class="tab-pane fade show active" id="description">
+                                <div class="description_area">
+                                    <p id="long_description"></p>
+                                </div>
+                            </div>
+                            
+                            <div role="tabpanel" class="tab-pane fade" id="reviews">
+                                <div class="reviews_area" id="reviews_area">
+                                    
+                                </div>
+
+                                <div class="submit_a_review_area mt-50">
+                                    <h4>Submit A Review</h4>
+                                    <form action="#" method="post">
+                                        <div class="row">
+                                            <div class="col-12 col-md-6">
+                                                <div class="form-group">
+                                                    <label for="options">Reason for your rating</label>
+                                                    <select class="form-control" id="star_options">
+                                                          <option>⭐</option>
+                                                          <option>⭐⭐</option>
+                                                          <option>⭐⭐⭐</option>
+                                                          <option>⭐⭐⭐⭐</option>
+                                                          <option>⭐⭐⭐⭐⭐</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="form-group">
+                                                    <label for="comments">Comments</label>
+                                                    <textarea class="form-control" id="comments" rows="5" data-max-length="150"></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <button class="btn alazea-btn" onclick="takeReview(event)">Submit Your Review</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ##### Single Product Details Area End ##### -->
+
+    <!-- ##### Related Product Area Start ##### -->
+    <div class="related-products-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Section Heading -->
+                    <div class="section-heading text-center">
+                        <h2>Related Products</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <!-- Single Product Area -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="single-product-area mb-100">
+                        <!-- Product Image -->
+                        <div class="product-img">
+                            <a href="shop-details.html"><img src="img/bg-img/40.png" alt=""></a>
+                            <!-- Product Tag -->
+                            <div class="product-tag">
+                                <a href="#">Hot</a>
+                            </div>
+                            <div class="product-meta d-flex">
+                                <a href="#" class="wishlist-btn"><i class="icon_heart_alt"></i></a>
+                                <a href="cart.html" class="add-to-cart-btn">Add to cart</a>
+                                <a href="#" class="compare-btn"><i class="arrow_left-right_alt"></i></a>
+                            </div>
+                        </div>
+                        <!-- Product Info -->
+                        <div class="product-info mt-15 text-center">
+                            <a href="shop-details.html">
+                                <p>Cactus Flower</p>
+                            </a>
+                            <h6>$10.99</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Product Area -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="single-product-area mb-100">
+                        <!-- Product Image -->
+                        <div class="product-img">
+                            <a href="shop-details.html"><img src="img/bg-img/41.png" alt=""></a>
+                            <div class="product-meta d-flex">
+                                <a href="#" class="wishlist-btn"><i class="icon_heart_alt"></i></a>
+                                <a href="cart.html" class="add-to-cart-btn">Add to cart</a>
+                                <a href="#" class="compare-btn"><i class="arrow_left-right_alt"></i></a>
+                            </div>
+                        </div>
+                        <!-- Product Info -->
+                        <div class="product-info mt-15 text-center">
+                            <a href="shop-details.html">
+                                <p>Cactus Flower</p>
+                            </a>
+                            <h6>$10.99</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Product Area -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="single-product-area mb-100">
+                        <!-- Product Image -->
+                        <div class="product-img">
+                            <a href="shop-details.html"><img src="img/bg-img/42.png" alt=""></a>
+                            <div class="product-meta d-flex">
+                                <a href="#" class="wishlist-btn"><i class="icon_heart_alt"></i></a>
+                                <a href="cart.html" class="add-to-cart-btn">Add to cart</a>
+                                <a href="#" class="compare-btn"><i class="arrow_left-right_alt"></i></a>
+                            </div>
+                        </div>
+                        <!-- Product Info -->
+                        <div class="product-info mt-15 text-center">
+                            <a href="shop-details.html">
+                                <p>Cactus Flower</p>
+                            </a>
+                            <h6>$10.99</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Product Area -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="single-product-area mb-100">
+                        <!-- Product Image -->
+                        <div class="product-img">
+                            <a href="shop-details.html"><img src="img/bg-img/43.png" alt=""></a>
+                            <!-- Product Tag -->
+                            <div class="product-tag sale-tag">
+                                <a href="#">Hot</a>
+                            </div>
+                            <div class="product-meta d-flex">
+                                <a href="#" class="wishlist-btn"><i class="icon_heart_alt"></i></a>
+                                <a href="cart.html" class="add-to-cart-btn">Add to cart</a>
+                                <a href="#" class="compare-btn"><i class="arrow_left-right_alt"></i></a>
+                            </div>
+                        </div>
+                        <!-- Product Info -->
+                        <div class="product-info mt-15 text-center">
+                            <a href="shop-details.html">
+                                <p>Cactus Flower</p>
+                            </a>
+                            <h6>$10.99</h6>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- ##### Related Product Area End ##### -->
+
+    <!-- ##### Footer Area Start ##### -->
+    <div id="footer-placeholder"></div>
+
+    <!-- ##### Footer Area End ##### -->
+
+    <!-- ##### All Javascript Files ##### -->
+    <!-- jQuery-2.2.4 js -->
+    <script src="js/header-footer.js"></script>
+
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/bootstrap/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!-- All Plugins js -->
+    <script src="js/plugins/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+
+    <script src="js/app.js"></script>
+    <script src="js/auth.js"></script>
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            loadHTML('header-placeholder', 'header.html');
+            
+            loadHTML('footer-placeholder', 'footer.html');
+        });
+    </script>
+</body>
+
+</html>
