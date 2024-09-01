@@ -1,5 +1,5 @@
 const contactUs=()=>{
-    fetch(`https://rose-valleye.netlify.app/contact_us/`)
+    fetch(`https://ross-valley.onrender.com/contact_us/`)
     .then((res)=>res.json())
     .then((data)=> { 
         console.log(data);

@@ -85,9 +85,9 @@ const handleRegistration = (event) => {
 //                     document.getElementById("loginSuccessful").innerHTML = "Successfully Logged in ";
                     
 //                     // if (data.account_type === "customer") {
-//                     //     window.location.href = "http://127.0.0.1:5500/index.html";
+//                     //     window.location.href = "https://ross-valley.onrender.com/index.html";
 //                     // } else{
-//                     //     window.location.href = "http://127.0.0.1:5500/admin/index.html";
+//                     //     window.location.href = "https://ross-valley.onrender.com/admin/index.html";
 //                     // }
                                        
 //                 } else {
@@ -140,11 +140,11 @@ const handleLogin = (event) => {
                         
                         // Redirect based on account_type
                         if (userData.account_type === "customer") {
-                            window.location.href = "http://127.0.0.1:5500/index.html";
+                            window.location.href = "https://rose-valleye.netlify.app";
                         } else {
-                            window.location.href = "http://127.0.0.1:5500/admin/index.html";
+                            window.location.href = "https://rose-valleye.netlify.app/admin/index.html";
                         }
-                    } else {
+                    } else {vbn
                         document.getElementById("loginUnsuccessful").innerHTML = "Account type not found.";
                     }
                 });
@@ -173,7 +173,7 @@ const handlelogOut = () => {
             localStorage.removeItem("token");
             localStorage.removeItem("user");
             localStorage.removeItem("user_id");
-            window.location.href = "index.html";
+            window.location.href = "https://rose-valleye.netlify.app/;"
 
         });
 };
