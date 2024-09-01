@@ -465,7 +465,7 @@
     <!-- ##### Portfolio Area End ##### -->
 
     <!-- ##### Blog Area Start ##### -->
-    <section class="alazea-blog-area section-padding-100-0">
+    <section class="alazea-blog-area section-padding-100-0 d-none">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -548,7 +548,7 @@
     <!-- ##### Blog Area End ##### -->
 
     <!-- ##### Subscribe Area Start ##### -->
-    <section class="subscribe-newsletter-area" style="background-image: url(img/bg-img/subscribe.png);">
+    <section class="subscribe-newsletter-area d-none" style="background-image: url(img/bg-img/subscribe.png);">
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-12 col-lg-5">
@@ -591,32 +591,27 @@
                     <div class="contact-form-area mb-100">
                         <form action="#" method="post">
                             <div class="row">
-                                <div class="col-12 col-sm-6">
+                                <div class="col-12 col-sm-12">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" id="contact-name"
+                                        <input type="text" id="contact_name" class="form-control" 
                                             placeholder="Your Name">
                                     </div>
                                 </div>
-                                <div class="col-12 col-sm-6">
+                                
+                                <div class="col-12">
                                     <div class="form-group">
-                                        <input type="email" class="form-control" id="contact-email"
-                                            placeholder="Your Email">
+                                        <input type="number" class="form-control" id="contact_number"
+                                            placeholder="Phone">
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" id="contact-subject"
-                                            placeholder="Subject">
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-group">
-                                        <textarea class="form-control" name="message" id="message" cols="30" rows="10"
+                                        <textarea class="form-control" name="message" id="contact_problem" cols="30" rows="10"
                                             placeholder="Message"></textarea>
                                     </div>
                                 </div>
                                 <div class="col-12">
-                                    <button type="submit" class="btn alazea-btn mt-15">Send Message</button>
+                                    <button type="submit" onclick="contactUs(event)" class="btn alazea-btn mt-15">Send Message</button>
                                 </div>
                             </div>
                         </form>

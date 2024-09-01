@@ -66,7 +66,6 @@ function allCategory(){
   }
 
   
-
   
 function filterProducts(catId){
   console.log(catId);

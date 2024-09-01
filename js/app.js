@@ -199,7 +199,35 @@ const confirmOrder=()=>{
         });
 }
 
+const contactUs=(event)=>{    
+    event.preventDefault()
+    const name = document.getElementById("contact_name").value;
+    const phone = document.getElementById("contact_number").value;
+    const problem = document.getElementById("contact_problem").value;
+    const info = {
+      name: name,
+      phone : phone,
+      problem : problem,
+    };
+    
+     console.log(info);
+    fetch("https://rose-valleye.netlify.app/contact_us/", {
+
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify(info),
+    })
+      .then((res) => res.json())
+      .then((data) => {       
+        console.log(data);
+        window.location.reload();
+      });
+  };
+
   
+
+
+
 // .................Single Products.....................//
 CheckoutProductInfo();
 reviewsForProduct();

@@ -155,6 +155,7 @@ const displayAllOrders = (orders) => {
         });
     });
 };
+
 allorders();
 const Orderdetails = () => {
     const queryString = window.location.search;
